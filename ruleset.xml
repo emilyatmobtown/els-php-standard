@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="elsPHPStandard" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
+	<description>ELS WP PHPCS extended.</description>
+
+	<rule ref="WordPress-Extra">
+		<exclude name="Squiz.WhiteSpace.SuperfluousWhitespace"/>
+	</rule>
+	<rule ref="WordPress-Docs"/>
+
+</ruleset>
