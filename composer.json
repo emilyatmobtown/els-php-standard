@@ -2,7 +2,7 @@
   "name" : "els/els-php-standard",
   "description" : "Package contains Emily's coding standards",
   "require" : {
-    "php" : ">=5.4.0",
+    "php" : ">=7.0",
     "squizlabs/php_codesniffer" : "^3.0"
   },
   "type" : "phpcodesniffer-standard"
