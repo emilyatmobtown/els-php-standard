@@ -32,6 +32,12 @@
 
 		<!-- Don't require punctuation after inline comments -->
 		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+
+		<!-- Allow shorthand array syntax -->
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+
+		<!-- Allow same line control structures e.g. if ( true ) { echo 1; } -->
+		<exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace"/>
 	</rule>
 
 	<!-- Sets the minimum supported WP version to 5.2 -->
